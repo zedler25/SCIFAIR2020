@@ -1,6 +1,7 @@
 #include <gtkmm.h>
 
 class mainWindow : public Gtk::Window{
+private:
     Glib::RefPtr<Gtk::Builder> builder;
     
     Gtk::Label *label1;
